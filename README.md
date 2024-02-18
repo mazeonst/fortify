@@ -1,26 +1,31 @@
-<h1 align="center"> Fortify </h1> <br>
-
-## Available for Desktop
-
+Fortify
 <p align="center">
-  <img src = "https://github.com/mazeonst/Fortifypasswordsgenerator/blob/main/images/fortifypresent.png?raw=true" width=1000>
+  <img src="https://github.com/mazeonst/Fortifypasswordsgenerator/blob/main/images/fortifypresent.png?raw=true" width="1000">
 </p>
-
 <p align="center">
-  <img src = "https://github.com/mazeonst/Fortifypasswordsgenerator/blob/main/images/%D0%9C%D0%BE%D0%BA%D0%B0%D0%BF%20%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0.png?raw=true" width=1000>
+  <img src="https://github.com/mazeonst/Fortifypasswordsgenerator/blob/main/images/%D0%9C%D0%BE%D0%BA%D0%B0%D0%BF%20%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0.png?raw=true" width="1000">
 </p>
+About Fortify Pass
+Fortify Pass is a desktop application designed to generate strong passwords with various customizable options. It offers the following features:
 
-## Возможности Fortify Pass
+Generate multiple passwords at once.
+Generate passwords of user-defined length.
+Integrate custom phrases or words into the password.
+Options for password generation include:
+Adding numbers to the password.
+Adding special characters to the password.
+Choice of generating characters of different cases.
+Fortify Pass can also encrypt passwords using the "cryptography.fernet" library.
 
-* Генерация сразу нескольких паролей.
-* Генерация пароля заданной пользователем длины. 
-* Интеграция в пароль своих фраз, слов. 
-* Использование разных опций для генерации пароля, таких как:
-  1. Добавление цифр в пароль. 
-  2. Добавление специальных символов в пароль. 
-  3. Возможность выбора генерации символов разного регистра.
-<br><b>Так же "FortifyPass" умеет шифровать пароль, благодаря такой библиотеке, как "cryptography.fernet"</b></br>
-* При запуске программы автоматически загружается ключ шифрования в файл "encryption_key.key"
-<br><b>ВНИМАНИЕ! КЛЮЧ ШИФРОВАНИЯ ВАЖНО СОХРАНИТЬ В ОТДЕЛЬНЫЙ ИСТОЧНИК ИНАЧЕ ЕСТЬ ВЕРОЯТНОСТЬ ПОТЕРИ ВСЕХ ЗАШИФРОВАННЫХ ДАННЫХ!</b></br>
-* В окне "пароль и данные" есть кнопка "зашифровать" после нажатия которой, пароль шифруется и записывается в файл "passwords.txt".
-* На главном экране программы имеется кнопка "Расшифровать" после ее нажатия открывается окно "Расшифровать пароль" в котором благодаря ранее сохраненному ключу шифрования вы можете расшифровать данные.
+Upon launching the program, the encryption key is automatically loaded into the "encryption_key.key" file.
+
+ATTENTION! IT IS IMPORTANT TO STORE THE ENCRYPTION KEY IN A SEPARATE LOCATION, OTHERWISE THERE IS A RISK OF LOSING ALL ENCRYPTED DATA!
+
+In the "password and data" window, there is a "encrypt" button. After clicking it, the password is encrypted and saved to the "passwords.txt" file.
+
+On the main screen of the program, there is a "Decrypt" button. After clicking it, the "Decrypt Password" window opens, where you can decrypt the data thanks to the previously saved encryption key.
+
+
+
+
+
